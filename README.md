@@ -3,6 +3,12 @@ Please Note this is only become public for my testing, if anyone chooses to use 
 
 Simple Bash Script for installing a Zabbix Agent on Debian based distros.
 
+Check your release by using the following command in your Linux CLI:
+```highlight
+lsb_release -a
+```
+Then choose the script bellow for your installation or download the file directly from the releases page.
+
 Quick install script for 20.04:
 ```highlight
 wget -qO- https://github.com/BCschwifty/Zabbix-Agent-Install-Script/releases/download/install/20_04-install.sh | bash
