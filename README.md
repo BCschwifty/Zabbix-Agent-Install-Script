@@ -3,16 +3,23 @@ Please Note this is only become public for my testing, if anyone chooses to use 
 
 Simple Bash Script for installing a Zabbix Agent on Debian based distros.
 
-Check your release by using the following command in your Linux CLI:
+Quick step guide
+Step#1:
+```highlight
+sudo su
+```
+Enter sudo credentials
+
+Step#2:
+Check your release so you don't install the wrong agent. ( the script pulls the agent file and information straight from zabbix's source so it should theoretically  never be outdated.
 ```highlight
 lsb_release -a
 ```
-Then choose the script bellow for your installation or download the file directly from the releases page.
-
-Quick install script for 20.04:
+Step#3:
+Paste the bellow script to start the process. Making sure your still running commands as root your CLI should be this "~#" not this "~$"
 ```highlight
-wget -qO- https://github.com/BCschwifty/Zabbix-Agent-Install-Script/releases/download/install/20_04-install.sh | bash
+wget -qO- https://github.com/BCschwifty/Zabbix-Agent-Install-Script/releases/download/pre-v0.1/zabbix_install-0.1.sh | bash
 ```
-Quick install script for 22.04:
-```highlight
-wget -qO- https://github.com/BCschwifty/Zabbix-Agent-Install-Script/releases/download/install/22_04-install.sh | bash
+Select your version and the script will handle the rest.
+![image](https://user-images.githubusercontent.com/98436836/229317137-2ac71c93-6978-4b73-a869-44a4e1a7ba27.png)
+
