@@ -23,3 +23,6 @@ wget -qO- https://github.com/BCschwifty/Zabbix-Agent-Install-Script/releases/dow
 Select your version and the script will handle the rest.
 ![image](https://user-images.githubusercontent.com/98436836/229317137-2ac71c93-6978-4b73-a869-44a4e1a7ba27.png)
 
+please let me know if you want anymore distro added
+
+Email: brandon@croft.tk
