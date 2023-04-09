@@ -18,7 +18,7 @@ lsb_release -a
 Step#3:
 Paste the bellow script to start the process. Making sure your still running commands as root your CLI should be this "~#" not this "~$"
 ```highlight
-wget -qO- https://github.com/BCschwifty/Zabbix-Agent-Install-Script/releases/download/pre-v0.1/zabbix_install-0.1.sh | bash
+wget -qO- https://github.com/BCschwifty/Zabbix-Agent-Install-Script/releases/download/v1.2/zabbix_install-1.2.sh | bash
 ```
 Select your version and the script will handle the rest.
 ![image](https://user-images.githubusercontent.com/98436836/229317137-2ac71c93-6978-4b73-a869-44a4e1a7ba27.png)
